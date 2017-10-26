@@ -2,7 +2,6 @@
 Easy to use openvpn cli
 
 
-
 Setup:
 
 1. sudo pip install -r requirements.txt
@@ -18,3 +17,13 @@ Usage:
 
     - Check if vpn is on (Fill in ISP provider in ip.py file on line #30)
     sudo ./pia.py --status
+    
+Optional:
+
+Very useful if bash aliases are created
+    
+Modify .bashrc file with something like these Examples:
+    
+    alias pia-start-siliconvalley='sudo python /<path>/pia.py --start=SiliconValley.ovpn'
+    alias pia-stop='sudo python /<path>/pia.py --stop'
+    alias pia-status='sudo python /<path>/pia.py --status'
