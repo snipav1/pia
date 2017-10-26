@@ -4,7 +4,7 @@ Easy to use openvpn cli
 
 Setup:
 
-1. sudo pip install -r requirements.txt
+    sudo pip install -r requirements.txt
 
 
 Usage:
