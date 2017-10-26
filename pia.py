@@ -1,7 +1,5 @@
 #!/usr/bin/python
 
-# Author: Emmanuel A. Hernandez <@snipa.v1>.
-
 import os
 import sys
 import subprocess
@@ -15,7 +13,7 @@ from ip import check_vpn
 """ 
     @author: Emmanuel Hernandez - @snipa.v1@gmail.com
 
-    Easy to use cli to start and stop openvpn with its corresponding .ovpn files
+    Easy to use cli to start and stop openvpn
     
     Usage:
         - Connect using .ovpn conf file
