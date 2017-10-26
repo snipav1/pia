@@ -1,5 +1,5 @@
 # pia
-Easy to use OpenVPN cli
+Easy to use OpenVPN CLI
 
 
 Setup:
