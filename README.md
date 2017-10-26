@@ -9,6 +9,7 @@ Setup:
 
 
 Usage:
+
     - Connect using .ovpn conf file
     sudo ./pia.py --start=SiliconValley.ovpn
 
