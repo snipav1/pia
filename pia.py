@@ -27,19 +27,6 @@ from ip import check_vpn
 
 """
 
-banner = r'''
-------------------------------------------------------------
-                    ______ _____  ___  
-                    | ___ \_   _|/ _ \ 
-                    | |_/ / | | / /_\ \
-                    |  __/  | | |  _  |
-                    | |    _| |_| | | |
-                    \_|    \___/\_| |_/
-                                             
-------------------------------------------------------------
-'''
-
-
 parser = argparse.ArgumentParser()
 parser.add_argument("--start",
                     dest="start",
@@ -147,8 +134,6 @@ class Pia():
 
 
 def main(start=start, stop=stop, status=status):
-    print '{}\n'.format(banner)
-    print('[*] Emmanuel Hernandez\n\n')
     check_root()
     pia = Pia(start)
     if start:
