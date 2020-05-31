@@ -10,18 +10,18 @@ import requests
 import time
 from ip import check_vpn
 
-""" 
+"""
     @author: Emmanuel Hernandez - @snipa.v1@gmail.com
 
     Easy to use cli to start and stop openvpn
-    
+
     Usage:
         - Connect using .ovpn conf file
         sudo ./pia.py --start=SiliconValley.ovpn
-        
+
         - Stop ovpn process and verify vpn is off (Fill in ISP provider line #72)
         sudo ./pia.py --stop
-        
+
         - Check if vpn is on (Fill in ISP provider in ip.py file on line #30)
         sudo ./pia.py --status
 
@@ -69,7 +69,7 @@ def check_ip():
 def vpn_on():
     isp, current_ip_address = check_ip()
 
-    #Fill in provider here - Example: 'Comcast'
+    # Fill in provider here - Example: 'Comcast'
     if '<ISP_Provider>' in isp:
         print('[.] VPN is OFF')
         return False
